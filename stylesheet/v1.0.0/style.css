@@ -1,0 +1,45 @@
+body {
+    font-family: "Calibri Light"
+}
+
+#app {
+    width: 95vw;
+    height: 95vh;
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+    display: inline-flex;
+}
+
+#side-bar {
+    background-color: #EEEEEE;
+    padding: 5px;
+    margin: 0px;
+    width: 30vw;
+    text-align: center;
+}
+
+#visuals-menu {
+    padding: 5px;
+}
+
+/* Menu bar heading  */
+#side-bar p {
+    font-weight: bold;
+}
+
+.menu-item {
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+#app .hover {
+    background: lightgray
+}
+
+#app .selected {
+    background: gold
+}
