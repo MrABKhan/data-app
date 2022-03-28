@@ -14,7 +14,7 @@ function TechDiversityGender() {
     this.preload = function () {
         var self = this;
         this.data = loadTable(
-            'http://localhost:63342/data-app/data/tech-diversity/gender-2018.csv', 'csv', 'header',
+            'https://raw.githubusercontent.com/MrABKhan/data-app/master/data/tech-diversity/gender-2018.csv', 'csv', 'header',
             // Callback function to set the value this.loaded to true.
             function (table) {
                 self.loaded = true;
