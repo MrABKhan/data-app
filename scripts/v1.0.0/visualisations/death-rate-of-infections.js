@@ -1,7 +1,7 @@
 function DeathRateOfInfection() {
 
     // Name for the visualisation to appear in the menu bar.
-    this.name = 'Death Rate of Infection';
+    this.name = 'Death Rate of Infection By Country';
 
     // Each visualisation must have a unique ID with no special characters.
     this.id = 'death-rate-of-infections';
