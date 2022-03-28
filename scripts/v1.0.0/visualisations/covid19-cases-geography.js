@@ -14,7 +14,7 @@ function Covid19CasesGeography() {
     this.preload = function() {
         var self = this;
         this.data = loadTable(
-            'http://localhost:63342/UOL-CM1010-main/data/covid19/covid19-overallcases-weekly.csv', 'csv', 'header',
+            'https://raw.githubusercontent.com/MrABKhan/data-app/master/data/covid19/covid19-overallcases-weekly.csv', 'csv', 'header',
             // Callback function to set the value
             // this.loaded to true.
             function(table) {
