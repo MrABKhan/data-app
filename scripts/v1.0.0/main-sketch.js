@@ -22,6 +22,7 @@ function setup() {
     gallery.addVisual(new DeathRateOfInfection());
     gallery.addVisual(new TechDiversityGender());
     gallery.addVisual(new PayGapByJob2017());
+    gallery.addVisual(new Covid19CasesGeography());
 }
 
 function draw() {
